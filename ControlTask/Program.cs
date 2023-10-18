@@ -13,6 +13,7 @@
 
 class Program
 {
+    //Ввод строки
     static string[] InputStringArray(string message, char splitter)
     {
         Console.WriteLine(message);
@@ -20,6 +21,7 @@ class Program
         return inputString.Split(splitter);
 
     }
+    //Выбор строк длиной меньше N
     static string[] SelectLenghtLessN(string[] stringArr, int N)
     {
         string[] outStringArr = Array.Empty<string>();
@@ -31,6 +33,7 @@ class Program
         return outStringArr;
     }
 
+    //Вывод массива строк
     static void PrintStringArray(string[] stringArr)
     {
         Console.WriteLine(string.Join(", ", stringArr));
