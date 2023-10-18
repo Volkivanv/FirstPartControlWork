@@ -33,7 +33,7 @@ class Program
 
     static void PrintStringArray(string[] stringArr)
     {
-        Console.WriteLine(string.Join("|", stringArr));
+        Console.WriteLine(string.Join(", ", stringArr));
     }
     static void Main(string[] args)
     {
